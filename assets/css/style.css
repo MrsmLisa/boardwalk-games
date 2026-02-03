@@ -42,6 +42,16 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+.custom-button-filled {
+    background-color: var(--highlight-color);
+    color: white;
+    border: var(--highlight-color);
+}
+.custom-button-filled:hover {
+    background-color: white;
+    color: var(--highlight-color);
+    border: var(--highlight-color);
+}
 
 /* Navbar */
 
